@@ -1,7 +1,5 @@
 # Bug Repro
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/RyanCallahan312/tss-vite-build-bug-repro/tree/main) (uses npm)
-
 I observed issues when building a tanstack start with react-diff-viewer-continued. I'm unsure if this is a tanstack start, vite, or a react-diff-viewer-continued issue.
 
 In short, when using `bun` it appears that the build might be missing something when building @emotion/cache OR there is something missing in the build configuration.
