@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev --port 3000",
-    "start": "node .output/server/index.mjs",
+    "start": "bun run .output/server/index.mjs",
     "build": "vite build",
     "serve": "vite preview",
     "test": "vitest run",
@@ -20,6 +20,7 @@
     "@tanstack/react-start": "^1.121.2",
     "@tanstack/router-plugin": "^1.121.2",
     "react": "^19.0.0",
+    "react-diff-viewer-continued": "^4.0.6",
     "react-dom": "^19.0.0",
     "tailwindcss": "^4.0.6",
     "vite": "^6.3.3",
